@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgb(64, 90, 197), rgb(254, 51, 51));
+}
+
+.container {
+    border-radius: 16px;
+    padding: 20px;
+    background: transparent;
+    box-shadow: 0 3px 15px rgba(131, 146, 150, 0.577);
+}
+
+input {
+    width: 320px;
+    border: none;
+    margin: 10px;
+    padding: 24px;
+    background: transparent;
+    box-shadow: 0 1px 5px rgba(185, 209, 174, 0.2);
+    text-align: right;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: -4px -4px 12px rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 2px 2px 16px rgba(255, 255, 255, 0.1);
+    font-size: 23px;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+
+#submit {
+    background-color: orange;
+}
+
+.operator {
+    color: rgb(30, 255, 0);
+}
